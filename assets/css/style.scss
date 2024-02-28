@@ -64,6 +64,9 @@ html {
 .z-50 {
     z-index: 50 !important;
 }
+.z-40 {
+    z-index: 40;
+}
 /* font size */
 .fs-sm {
     font-size: var(--fs-sm) !important;
@@ -308,8 +311,8 @@ html {
         width: 70%;
     }
     nav {
-        padding-top: 21px;
-        padding-bottom: 21px;
+        padding-top: var(--Res-20);
+        padding-bottom: var(--Res-20);
     }
     .heading {
         max-width: 577px;
@@ -975,7 +978,7 @@ $animationSpeed: 40s;
         position: fixed;
         width: 100% !important;
         top: 0;
-        left: -100%;
+        right: -100%;
         background: #000;
         display: flex;
         flex-direction: column !important;
@@ -989,6 +992,6 @@ $animationSpeed: 40s;
         -o-transition: all 500ms linear;
     }
     .show {
-        left: 0 !important;
+        right: 0 !important;
     }
 }

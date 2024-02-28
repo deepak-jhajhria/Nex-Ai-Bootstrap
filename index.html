@@ -36,16 +36,21 @@
             <div class="header-bg">
                 <nav class="d-flex align-items-center w-100 justify-content-end  justify-content-lg-between">
                     <ul class="m-0 p-0 d-flex align-items-center justify-content-lg-end mobileView">
-                        <li><a class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#home">Home</a>
+                        <li><a onclick="removeOverflowHidden()"
+                                class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#home">Home</a>
                         </li>
-                        <li><a class="font-poppins fw-normal fs-base lh-2 text-white navLinks"
+                        <li><a onclick="removeOverflowHidden()"
+                                class="font-poppins fw-normal fs-base lh-2 text-white navLinks"
                                 href="#marketplace">Marketplace</a>
                         </li>
-                        <li><a class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#about">About</a>
+                        <li><a onclick="removeOverflowHidden()"
+                                class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#about">About</a>
                         </li>
-                        <li><a class="font-poppins fw-normal fs-base lh-2 text-white navLinks"
+                        <li><a onclick="removeOverflowHidden()"
+                                class="font-poppins fw-normal fs-base lh-2 text-white navLinks"
                                 href="#nexchat">NexChat</a></li>
-                        <li><a class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#token">Tokens</a>
+                        <li><a onclick="removeOverflowHidden()"
+                                class="font-poppins fw-normal fs-base lh-2 text-white navLinks" href="#token">Tokens</a>
                         </li>
                     </ul>
                     <button class="commonBtn fs-lg fw-bold me-5 font-recharge">Sign Up</button>
@@ -68,7 +73,7 @@
         <span class="d-flex w-100 shadow-linear translate-middle-y"></span>
         <!-- Ai-Powered Home Assistant -->
         <section id="home" class="overflow-x-clip mt-26 position-relative">
-            <div class="container">
+            <div class="container position-relative z-40">
                 <div class="row align-items-lg-end flex-column-reverse flex-lg-row ">
                     <div class="col-12 col-lg-6 d-flex justify-content-center mt-3 mt-lg-0"><img
                             class="w-100  max-w-612" src="./assets/images/aisecimage.png" alt="image">
@@ -202,7 +207,7 @@
         </section>
         <!-- Blockchain & AI technology -->
         <section id="marketplace" class="mt-160 overflow-x-clip position-relative">
-            <div class="container position-relative z-3">
+            <div class="container position-relative z-40">
                 <div class="d-flex flex-column mx-auto justify-content-center max-w-997">
                     <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue text-center">Blockchain & AI technology
                     </h2>
@@ -313,162 +318,178 @@
         </section>
         <!-- NexAi does all this. And more. {sliders} -->
         <section id="nexchat" class="overflow-x-clip mt-200 position-relative">
-            <div class="d-flex flex-column mx-auto justify-content-center max-w-997">
-                <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue text-center">NexAi does all this. And more.
-                </h2>
-                <p class="font-poppins fw-normal lh-2 fs-base pt-16 text-grey text-center mb-70 mx-2">Nexai is an
-                    advanced
-                    home assistant that will revolutionize the way we interact with our smart devices at home. Powered
-                    by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and
-                    efficient user experience.</p>
-            </div>
-            <div class="slider">
-                <div class="slide-track">
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <h2 class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</h2>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00 am
-                        </p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
-                            locked?</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
-                            the front door</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
-                            alarm of 5:00 am</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+            <div class="position-relative z-40">
+                <div class="d-flex flex-column mx-auto justify-content-center max-w-997">
+                    <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue text-center">NexAi does all this. And more.
+                    </h2>
+                    <p class="font-poppins fw-normal lh-2 fs-base pt-16 text-grey text-center mb-70 mx-2">Nexai is an
+                        advanced
+                        home assistant that will revolutionize the way we interact with our smart devices at home.
+                        Powered
+                        by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure
+                        and
+                        efficient user experience.</p>
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <h2 class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</h2>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00
+                                am
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
+                                locked?</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
+                                the front door</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
+                                alarm of 5:00 am</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="slider">
-                <div class="slide-track secondTrack">
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00 am
-                        </p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
-                            locked?</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
-                            the front door</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
-                            alarm of 5:00 am</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                <div class="slider">
+                    <div class="slide-track secondTrack">
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00
+                                am
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
+                                locked?</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
+                                the front door</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
+                                alarm of 5:00 am</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="slider">
-                <div class="slide-track">
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00 am
-                        </p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
-                            locked?</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
-                            the front door</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
-                            alarm of 5:00 am</p>
-                    </div>
-                    <div class="sliderCard d-flex justify-content-center align-items-center">
-                        <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set alarm of 5:00
+                                am
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, is the front door
+                                locked?</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn of AC.</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on TV</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Lock
+                                the front door</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on music</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, measure this table
+                            </p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, set
+                                alarm of 5:00 am</p>
+                        </div>
+                        <div class="sliderCard d-flex justify-content-center align-items-center">
+                            <p class="fs-2xl text-white font-recharge lh-3 text-center px-40">NexAi, Turn on light</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -478,9 +499,9 @@
         <!-- What is NexAi? -->
         <section class="mx-50 mt-160">
             <div class="container border border-white nexAi overflow-hidden position-relative">
-                <div class="nexAiContent">
-                    <div class="row align-items-center flex-column flex-xxl-row justify-content-between">
-                        <div class="col-12 col-xxl-6 d-flex flex-column max-w-584 align-items-start ">
+                <div class="nexAiContent position-relative z-40">
+                    <div class="row align-items-center flex-column flex-xl-row justify-content-between">
+                        <div class="col-12 col-xl-6 d-flex flex-column max-w-584 align-items-start ">
                             <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue m-0">What is NexAi?</h2>
                             <p class="font-poppins fw-normal lh-2 fs-base m-0 text-grey pt-16">Beyond its convenience,
                                 Nexai revolutionizes the way you interact with your home environment. It enhances
@@ -495,8 +516,8 @@
                                 Nexai empowers you with effortless control.</p>
                             <button class="commonBtn fs-lg fw-bold font-recharge mt-40">Learn More</button>
                         </div>
-                        <div class="col-12 col-xxl-6 d-flex justify-content-center"><img class="w-100  max-w-612"
-                                src="./assets/images/AI-img.png" alt="image">
+                        <div class="col-12 col-xl-6 d-flex justify-content-center mt-4 mt-xl-0"><img
+                                class="w-100  max-w-612" src="./assets/images/AI-img.png" alt="image">
                         </div>
                     </div>
                 </div>
@@ -506,7 +527,7 @@
         </section>
         <!-- NexAI Token & utility -->
         <section id="token" class="mt-160 overflow-x-clip position-relative">
-            <div class="container">
+            <div class="container position-relative z-40">
                 <h2 class="fs-4xl fw-bold lh-5 font-recharge text-blue m-0 text-center">NexAI Token & utility</h2>
                 <div class="row flex-column-reverse flex-lg-row  mt-60">
                     <div class="col-12 col-lg-6 mt-4 mt-lg-0"><img class="w-100  max-w-612"
@@ -597,7 +618,7 @@
         <!-- Ready to get started Talk to us Today  -->
         <section id="about" class="mt-280 overflow-x-clip position-relative">
             <div
-                class="container-xl d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-sm-5 position-relative  z-2">
+                class="container-xl d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-sm-5 position-relative z-40">
                 <h2 class="font-recharge fw-bold fs-4xl lh-5 text-white max-w-517">Ready to get started <span
                         class="text-blue">Talk to us Today </span></h2>
                 <button class="commonBtn fs-lg fw-bold font-recharge mt-40 text-nowrap">Learn More</button>

@@ -14,21 +14,21 @@ menu.addEventListener("click", function () {
   span2.classList.toggle("span5");
   span3.classList.toggle("span6");
 });
-navBtn.addEventListener("click", function () {
-  mobileView.classList.remove("show");
+
+function removeOverflowHidden() {
   body.classList.remove("overflow-hidden");
+  mobileView.classList.remove("show");
   span1.classList.remove("span4");
   span2.classList.remove("span5");
   span3.classList.remove("span6");
-});
-
+}
 
 
 // preloder
 setTimeout(() => {
   document.getElementById("preloder").classList.add("d-none");
   document.body.classList.remove("overflow-hidden");
-}, 0);
+}, 3000);
 
 
 
