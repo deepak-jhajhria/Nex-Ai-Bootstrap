@@ -63,6 +63,10 @@ html {
   z-index: 50 !important;
 }
 
+.z-100 {
+  z-index: 100;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -564,6 +568,7 @@ html {
   align-items: center;
   gap: 2.5px;
   transition: all 3s linear;
+  z-index: 70;
 }
 .menu .span1 {
   display: flex;
@@ -1060,12 +1065,13 @@ html {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    height: 100vh;
+    height: 100%;
     transition: all 500ms linear;
     -webkit-transition: all 500ms linear;
     -moz-transition: all 500ms linear;
     -ms-transition: all 500ms linear;
     -o-transition: all 500ms linear;
+    z-index: 60;
   }
   .show {
     right: 0 !important;
