@@ -64,7 +64,7 @@ html {
 .z-50 {
     z-index: 50 !important;
 }
-.z-100{
+.z-100 {
     z-index: 100;
 }
 .z-40 {
@@ -675,6 +675,36 @@ $animationSpeed: 40s;
     height: 498px;
     overflow-x: scroll;
 }
+// .AiImg {
+//     position: relative;
+//     overflow: hidden;
+// }
+
+// .AiImg::before,
+// .AiImg::after {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     width: 511px;
+//     height: 511px;
+// }
+
+// .AiImg::before {
+//     background-color: #02cdcf;
+//     z-index: 20;
+//     mix-blend-mode: color !important;
+// }
+
+// .AiImg::after {
+//     background-color: #02cdcf;
+//     z-index: 1;
+//     mix-blend-mode: hue !important;
+// }
+
+// .AiImg img {
+//     object-fit: cover;
+// }
+
 .whiteDot::before {
     content: "";
     position: absolute;

@@ -758,6 +758,37 @@ html {
   overflow-x: scroll;
 }
 
+.AiImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.AiImg::before,
+.AiImg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 511px;
+  height: 511px;
+}
+
+.AiImg::before {
+  background-color: #02cdcf;
+  z-index: 20;
+  mix-blend-mode: color !important;
+}
+
+.AiImg::after {
+  background-color: #02cdcf;
+  z-index: 1;
+  mix-blend-mode: hue !important;
+}
+
+.AiImg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .whiteDot::before {
   content: "";
   position: absolute;
